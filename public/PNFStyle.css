@@ -1,0 +1,21 @@
+.error-body{
+		width: 500px;
+		padding: 20px;
+		margin: auto;
+		text-align: center;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		color: #FFD5B0;
+		background-color: #E09655;
+	}
+
+.homepage {
+		background-color: saddlebrown;
+  		color: white;
+  		padding: 14px 20px;
+  		margin: 8px 0;
+  		border: 30px;
+  		border-radius: 1000px;
+  		cursor: pointer;
+  		width: 60%;
+	}

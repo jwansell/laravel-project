@@ -1,0 +1,144 @@
+	body{
+		background-color: sandybrown;
+	}
+
+	.top-bar{
+		background-color: saddlebrown;
+		height: 120px;
+		margin-bottom: 10px;
+	}
+
+	.header{
+		font-size: 2em;
+		color: floralwhite;
+		font-weight: bold;
+		font-family: sans-serif;
+		padding: 20px;
+	}
+
+	.main-content-body{
+		width: 500px;
+		padding: 20px;
+		margin: auto;
+		text-align: center;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		color: #FFD5B0;
+	}
+
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: saddlebrown;
+}
+
+.main-header{
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: saddlebrown;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight:  bold;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #EA6D00;
+}
+
+.main-content-image{
+	height: 600px;
+	text-align: center;
+}
+
+.main-image{
+	height: 100%;
+	margin: auto;
+}
+
+.logout-link{
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.login-link{
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: auto;
+}
+
+.username-display{
+	color: white;
+	text-align: right;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0px 30px;
+
+}
+
+.toast-notification {
+	visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 75%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+  font-size: 20px;
+}
+
+.toast-notification.show {
+	visibility: visible;
+}
+
+.toast {
+	background-color:black;
+	width:275px;
+	height:75px;
+	top:84.5%;
+	position:fixed;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	left: 77.5%;
+	font-family: sans-serif;
+	font-weight: bold;
+	border-style: solid;
+  border-width: 2px;
+}
+
+.toast-success {
+		background-color:#1DA850;
+		color: #B4EEC9;
+}
+
+.toast-error {
+	background-color: #E33A3A;
+	color: #F2CECE;
+}

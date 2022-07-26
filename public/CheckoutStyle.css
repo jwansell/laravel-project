@@ -1,0 +1,84 @@
+	.dashboard-body{
+		width: 500px;
+		padding: 20px;
+		margin: auto;
+		text-align: center;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		color: #FFD5B0;
+		border-radius: 5px;
+		background-color: #E09655;
+		
+	}
+
+	.shipping {
+	background-color: #E09655;
+	width: 500px;
+	margin: auto;
+	border-radius: 5px;
+	color: #FFD5B0;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	padding: 3px;
+	}
+
+	input[type=text], select, textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  margin-top: 6px;
+	  margin-bottom: 16px;
+	  resize: vertical;
+	  background-color: #FFD5B0;
+	}
+
+	.counter {
+			background-color: saddlebrown;
+  		color: white;
+  		border: 30px;
+  		border-radius: 1000px;
+  		cursor: pointer;
+	}
+
+	.counter:hover {
+		opacity: 0.8;
+	}
+
+	.button {
+		background-color: saddlebrown;
+  		color: white;
+  		padding: 14px 20px;
+  		text-align: center;
+  		margin: 8px 0;
+  		border: 30px;
+  		border-radius: 1000px;
+  		cursor: pointer;
+  		width: 100%;
+	}
+
+	.button:hover {
+		opacity: 0.8;
+	}
+
+	.items-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  gap: 3px;
+	  background-color: #A3622A;
+	  border-radius: 5px;
+	  padding: 4px;
+	}
+
+	.item-grid-container {
+	  background-color: #CC884C;
+	  text-align: center;
+	  padding: 10px;
+	  font-size: 20px;
+	  display: grid;
+	  grid-template-columns: auto auto auto auto auto;
+  	  gap: 3px;
+	}

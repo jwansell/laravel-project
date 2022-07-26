@@ -1,0 +1,67 @@
+	.dashboard-body{
+		width: 500px;
+		padding: 20px;
+		margin: auto;
+		text-align: center;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		color: #FFD5B0;
+		border-radius: 5px;
+		background-color: #E09655;
+		
+	}
+
+	.dashboard-messages {
+		
+	}
+
+	.user-data{
+		width: 500px;
+		padding: 20px;
+		margin: auto;
+		text-align: center;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		color: #FFD5B0;
+		background-color: #E09655;
+	}
+
+	.button {
+		background-color: saddlebrown;
+  		color: white;
+  		padding: 14px 20px;
+  		margin: 8px 0;
+  		border: 30px;
+  		border-radius: 1000px;
+  		cursor: pointer;
+  		width: 60%;
+	}
+
+	.button:hover {
+		opacity: 0.8;
+	}
+
+	.basket {
+		background-color: saddlebrown;
+  		color: white;
+  		padding: 14px 20px;
+  		margin: 8px 0;
+  		border: 30px;
+  		border-radius: 1000px;
+  		cursor: pointer;
+  		width: 30%;
+	}
+
+	.basket:hover {
+		opacity: 0.8;
+	}
+
+	.store-items {
+		width: 500px;
+		background-color: #CC884C;
+		padding: 5px;
+		border-radius: 3px;
+		font-size: 20px;
+		margin: auto;
+		text-align: center;
+	}
